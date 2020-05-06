@@ -31,11 +31,26 @@ Changing the value of a non-blank variable is the same.
 ### Functions
 *Definition*
 ```
-function <iden>([args]) {
+[public|private|static|const] [type] function <iden>([args]) {
     /* ... */
 }
 ```
 *Execution*
 ```
 <iden>([args]);
+```
+### Classes
+*Definition*
+```
+class <iden> {
+    function <class name>([args]) {
+        /* ... */
+    }
+
+    /* ... */
+}
+```
+*Constructing*
+```
+new <iden>([args]);
 ```
