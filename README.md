@@ -10,4 +10,32 @@ function main(argc, args) {
     return 0;
 }
 ```
-It outputs `Hello, world!` to the console and returns an error code of `0`. (No error.)
+It outputs `Hello, world!` to the console and returns an error code of `0`. (No error)
+
+## Basic Syntax
+### Variables
+*Definition*
+```
+[public|private|static|const] [type] <iden> [= [value]];
+```
+*Blank definition* <br>
+Blank definition is when you define a variable without a value.  For example:
+```
+String v;
+```
+Then it can be defined later:
+```
+v = "Hello, world!";
+```
+Changing the value of a non-blank variable is the same.
+### Functions
+*Definition*
+```
+function <iden>([args]) {
+    /* ... */
+}
+```
+*Execution*
+```
+<iden>([args]);
+```
